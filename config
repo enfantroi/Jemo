@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://gitlab.com/khurramAwan/wmad-android
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "Master"]
+	remote = origin
+	merge = refs/heads/Master
